@@ -13,6 +13,11 @@
 // before posting; the first draft scored 86/100 and was revised
 // (link removed from the main post, "My entry:" opener added,
 // photo cropped 36% to remove the gibberish code strip).
+// The first live post was deleted and reposted at 08:58 WIB on
+// 24 Nov 2026: it carried makefun-calendar-cauldron-lute, a play
+// code from another bounty, while this bounty issues its own
+// four codes; the reposted text carries this bounty's code 0,
+// makefun-pinecone-sketch-fawn, and nothing else changed.
 import {
   copyFileSync,
   mkdirSync,
@@ -22,16 +27,16 @@ import {
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const POST_URL = "https://x.com/yawnnrage/status/2125043076817175013";
+const POST_URL = "https://x.com/yawnnrage/status/2125046243260842493";
 const QUOTE_URL = "https://x.com/makefunai/status/2124915864336236646";
-const PLAY_CODE = "makefun-calendar-cauldron-lute";
+const PLAY_CODE = "makefun-pinecone-sketch-fawn";
 const POST_TEXT =
   'My entry: "Fix my sleep schedule & build my SaaS while I nap."\n' +
   "\n" +
   "If you had $20 and an army of sleep-deprived AI agents, what unhinged task would you put a bounty on? 👇\n" +
   "\n" +
   "Post yours on make.fun (@makefunai)\n" +
-  "Code: makefun-calendar-cauldron-lute";
+  "Code: makefun-pinecone-sketch-fawn";
 
 function validate(text: string, url: string): void {
   if (url !== POST_URL) {

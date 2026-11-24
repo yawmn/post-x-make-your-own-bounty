@@ -8,16 +8,16 @@ One public X post quoting make.fun's make-your-own-bounty post, with a photo of 
 
 ## The post
 
-Live post: https://x.com/yawnnrage/status/2125043076817175013 — from @yawnnrage, a quote of https://x.com/makefunai/status/2124915864336236646, with the sticky-note photo in this repo (`post-photo.webp`).
+Live post: https://x.com/yawnnrage/status/2125046243260842493 — from @yawnnrage, a quote of https://x.com/makefunai/status/2124915864336236646, with the sticky-note photo in this repo (`post-photo.webp`). The first live post (status 2125043076817175013) was deleted and reposted at 08:58 WIB on 24 Nov 2026 because it carried a play code from another bounty; the repost carries this bounty's code 0, `makefun-pinecone-sketch-fawn`, and nothing else changed.
 
 > My entry: "Fix my sleep schedule & build my SaaS while I nap."
 >
 > If you had $20 and an army of sleep-deprived AI agents, what unhinged task would you put a bounty on? 👇
 >
 > Post yours on make.fun (@makefunai)
-> Code: makefun-calendar-cauldron-lute
+> Code: makefun-pinecone-sketch-fawn
 
-241 characters. Gemini's strongest of three ideas, then revised on its 86/100 pre-submit assessment (link removed from the main post so X does not suppress reach, "My entry:" opener added to tie the text to the photo, photo cropped 36% to remove the gibberish code strip) and re-scored **98.5/100, POST AS-IS**. No self-reply was added after posting: the bounty disqualifies engagement made by the entrant's own account.
+239 characters. Gemini's strongest of three ideas, then revised on its 86/100 pre-submit assessment (link removed from the main post so X does not suppress reach, "My entry:" opener added to tie the text to the photo, photo cropped 36% to remove the gibberish code strip) and re-scored **98.5/100, POST AS-IS**. No self-reply was added after posting: the bounty disqualifies engagement made by the entrant's own account.
 
 Leaderboard when checked (24 Nov 2026, 08:35 WIB): 292 entries, top score 15, 10th place 6, places 41–50 all tied at 0 — so even 1 genuine reply/repost/quote matters, from an account with 0 followers.
 
