@@ -52,6 +52,9 @@ function validate(text: string, url: string): void {
 
 function main(): void {
   const here = dirname(fileURLToPath(import.meta.url));
+  // The bounty requires a photo of its own attached to the post:
+  // the file must be in the repository, not just named in the report.
+  readFileSync(join(here, "post-photo.webp"));
   const post = JSON.parse(readFileSync(join(here, "POST.json"), "utf-8")) as {
     url: string;
   };
