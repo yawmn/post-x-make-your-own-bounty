@@ -13,7 +13,12 @@
 // before posting; the first draft scored 86/100 and was revised
 // (link removed from the main post, "My entry:" opener added,
 // photo cropped 36% to remove the gibberish code strip).
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import {
+  copyFileSync,
+  mkdirSync,
+  readFileSync,
+  writeFileSync,
+} from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -75,6 +80,9 @@ function main(): void {
   };
   const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
   mkdirSync(outDir, { recursive: true });
+  // The gate reads the post address from /output/POST.json, so the
+  // program must copy POST.json there, byte for byte.
+  copyFileSync(join(here, "POST.json"), join(outDir, "POST.json"));
   const outPath = join(outDir, "entry.json");
   writeFileSync(outPath, JSON.stringify(report, null, 2) + "\n", "utf-8");
   console.log(JSON.stringify(report, null, 2));
